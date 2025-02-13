@@ -1,10 +1,10 @@
-import React from 'react'
-import InvoiceGenerator from '../app/pages/InvoiceGenerator';
+import React from "react";
+import CreateInvoice from "./pages/CreateInvoice";
 
 export default function page() {
   return (
     <>
-    <InvoiceGenerator/>
+      <CreateInvoice />
     </>
-  )
+  );
 }
